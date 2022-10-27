@@ -1,3 +1,9 @@
+1/ Oproti zadání jsem změnila font-weight, přišlo mi to bložší grafické předloze. (možná časem nějaká změna ve fontech nebo v zadání?)
+h1, h2 SemiBold místo Bold
+p Regular místo Light
+
+2/ 
+
 # Služby
 
 Povinný úkol pro kurz Staň se kóderkou od Czechitas.
