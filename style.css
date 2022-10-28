@@ -35,6 +35,7 @@ p {
 .service p {
     font-size: 13px;
     text-align: left;
+    margin: 30px 20px 20px 0;
 }
 
 .section {
@@ -49,12 +50,15 @@ p {
     justify-content: center;
 }
 
+.traveler img {
+    width: 350px;
+}
+
 hr {
     width: 60px;
     background-color:#407BFF;
     border: 0px;
     height: 2px;
-    align-self: center;
     margin-top: 10px;
     margin-bottom: 30px;
 }
@@ -89,18 +93,23 @@ hr {
 }
 
 .service img {
-    margin: 20px 30px 20px 20px; 
-}
+    min-width: 95px;
+    height: 40px;
+    margin: 20px 0;
+    }
 
-.service p {
-    text-align: center;
+/* .service p {
     margin: 30px 20px 20px 30px;
-}
+} */
 
 @media screen and (min-width: 640px){
 
     .description p {
         padding: 0 90px;
+    }
+
+    .traveler img {
+        width: 400px;
     }
     
     .buttons {
@@ -128,5 +137,93 @@ hr {
 
     .service p {
         margin: 20px 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    
+    .section {
+        max-width: 1040px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 0;
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-company {
+        width: calc((100% - 60px) / 2);
+    }
+
+    .traveler {
+        order: 1;
+        margin: 0 0;
+        width: calc((100% - 60px) / 2);
+    }
+
+    .traveler img {
+        width: 425px;
+    }
+
+    .travels h1 {
+        margin-top: 50px;
+    }
+
+    .description h1, h2 {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .description h2 {
+        margin-top: 40px;
+    }
+
+    .description p {
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    hr {
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .buttons {
+        justify-content: left;
+    }
+
+    .adventure {
+        margin-left: 0;
+    }
+
+    .agency {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        display: flex;
+    }
+
+    .delegates{
+        display:flex;
+    }
+
+    .agency-services-list,
+    .delegates-services-list {
+        max-width: 550px;
+    }
+    
+    .agency-services {
+        order: 1;
+        max-width: 430px;
+        margin-left: 60px;
+    }
+
+    .delegates-services {
+        max-width: 430px;
+        margin-right: 60px;
     }
 }
