@@ -1,8 +1,8 @@
 1/ Oproti zadání jsem změnila font-weight, přišlo mi to bložší grafické předloze. (možná časem nějaká změna ve fontech nebo v zadání?)
 
-h1, h2 SemiBold místo Bold
+h1, h2 Bold 700 místo zadaných Medium 500
 
-p Regular místo Light
+p Regular 400 místo Light 300
 
 
 2/ Opravila jsem překlepy v textech
