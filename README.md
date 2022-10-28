@@ -1,4 +1,4 @@
-1/ Oproti zadání jsem změnila font-weight, přišlo mi to bložší grafické předloze. (možná časem nějaká změna ve fontech nebo v zadání?)
+1/ Oproti zadání jsem změnila font-weight, přišlo mi to bližší grafické předloze. (Možná časem nějaká změna ve fontech nebo v zadání?)
 
 h1, h2 Bold 700 místo zadaných Medium 500
 
@@ -6,6 +6,8 @@ p Regular 400 místo Light 300
 
 
 2/ Opravila jsem překlepy v textech
+
+_______
 
 # Služby
 
